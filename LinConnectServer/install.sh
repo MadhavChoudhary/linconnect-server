@@ -47,6 +47,7 @@ fi
 read -p "Press any key to continue..." -n 1 -r
 
 echo "Installing LinConnect..."
+rm -rf ~/.linconnect
 git clone -q https://github.com/hauckwill/linconnect-server.git ~/.linconnect
 cd ~/.linconnect
 echo "Setting up LinConnect..."
